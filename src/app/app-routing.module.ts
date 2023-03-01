@@ -1,0 +1,21 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+// Adding the router module -> angular docs
+import { Routes, RouterModule } from '@angular/router';
+
+import { CraftingComponent } from './crafting/crafting.component';
+import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+
+const routes: Routes = [{path: 'home-component',title: 'Home Page', component: HomeComponent},
+{path: 'crafting-component',title: 'Crafting Page', component: CraftingComponent},
+// 404 page
+{ path: '**', component: PageNotFoundComponent }];
+
+@NgModule({
+  declarations: [],
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
