@@ -7,10 +7,11 @@ import { Routes, RouterModule } from '@angular/router';
 import { CraftingComponent } from './crafting/crafting.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { LocationComponent } from './location/location.component';
 
-const routes: Routes = [{path: 'home-component',title: 'Home Page', component: HomeComponent},
-{path: 'crafting-component',title: 'Crafting Page', component: CraftingComponent},
-// 404 page
+const routes: Routes = [{path: 'home',component: HomeComponent},
+{path: 'crafting', component: CraftingComponent},
+{path: 'locations', component: LocationComponent},
 { path: '**', component: PageNotFoundComponent }];
 
 @NgModule({
