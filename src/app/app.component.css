@@ -2,3 +2,8 @@
   width: 20%;
   background-color: red;
 }
+a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: black;
+}
