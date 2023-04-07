@@ -17,10 +17,10 @@
     <img src="public/unnamed.jpg" alt="Logo" width="140" height="140">
   </a>
   
-  <h3 align="center">Storage wars</h3>
+  <h3 align="center">Block Babies</h3>
 
   <p align="center">
-    An Angular and Typescript project allowing admins to store, update and maintain the inventory from the provided dashboard  <br>
+    An Angular and Typescript project developed to allow users to create and breed different characters <br>
     
     
    <br />
