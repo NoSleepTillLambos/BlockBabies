@@ -10,7 +10,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { LocationComponent } from './location/location.component';
 
 const routes: Routes = [{path: 'home',component: HomeComponent},
-{path: 'crafting', component: CraftingComponent},
+{path: 'crafting', component: CraftingComponent, data: {animation: 'isRight'}},
 {path: 'locations', component: LocationComponent},
 { path: '**', component: PageNotFoundComponent }];
 

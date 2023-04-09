@@ -1,18 +1,44 @@
-.outer-con {
-  background-color: #b1c2d5;
-  height: 93%;
-}
 h1 {
   font-weight: 500;
-  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+h2 {
+  padding-top: 10px;
+  font-size: 20px;
+  padding-left: 50px;
 }
 .inner-con {
-  background-color: #05729d;
+  background-color: #21759b;
   position: absolute;
   top: 10%;
   left: 5%;
+  align-items: center;
+  color: white;
   padding-top: 1%;
+  width: 80%;
   height: 40%;
   width: 90%;
+  border-radius: 1rem;
+}
+.lower-left {
+  background-color: #21759b;
+  color: white;
+  position: absolute;
+  top: 57%;
+  height: 40%;
+  width: 38%;
+  border-radius: 1rem;
+  left: 5%;
+}
+.lower-right {
+  background-color: #21759b;
+  color: white;
+  position: absolute;
+  top: 57%;
+  height: 40%;
+  width: 50%;
+  left: 45%;
   border-radius: 1rem;
 }
