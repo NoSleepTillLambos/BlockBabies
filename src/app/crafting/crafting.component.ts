@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { FormControl} from '@angular/forms';
 import { VerifyService } from '../services/verify.service';
+import { DbServService } from '../services/db-serv.service';
+import { Materials } from '../models/materials';
 
 @Component({
   selector: 'app-crafting',
@@ -9,8 +11,9 @@ import { VerifyService } from '../services/verify.service';
 })
 export class CraftingComponent {
 
-  constructor (private verify: VerifyService) {}
+  constructor (private verify: VerifyService, private itemService: DbServService) {}
 
+  value = ' clear me';
 
   // is user verified
   isVerified = false;
@@ -26,10 +29,31 @@ export class CraftingComponent {
         window.alert("Welcome " + this.username.value)
         this.isVerified = true
       } else {
-        console.log("nope!!!!!!")
+        window.alert("Sorry something is wrong")
         this.isVerified = false
       }
     })
     
+  }
+
+  // CRUD FUNCTIONALITY
+  items: Materials[] = []
+
+
+  ngOnInit() {
+    this.itemService.getAllItems().subscribe((data) => {
+      this.items = data
+    })
+    
+  }
+
+  enteredSearchString: string = "";
+
+  @Output()
+
+  searchTextChange: EventEmitter<string> = new EventEmitter<string>();
+
+  onSearch() {
+    this.searchTextChange.emit(this.enteredSearchString);
   }
 }

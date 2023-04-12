@@ -14,4 +14,5 @@ export class VerifyService {
   checkVerification(username: string, password: string): Observable<any> {
     return this.http.post<any>(this.url, {username,password})
   }
+
 }

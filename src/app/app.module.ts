@@ -15,7 +15,8 @@ import { HttpClientModule } from '@angular/common/http'
 import { ReactiveFormsModule } from '@angular/forms';
 import { AuthOnlyDirective } from './directives/auth-only.directive';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import {MatIconModule} from '@angular/material/icon'
+import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +38,7 @@ import {MatIconModule} from '@angular/material/icon'
     ReactiveFormsModule,
     MatIconModule,
     FormsModule,
+    MatCardModule,
     HttpClientModule,
   ],
   providers: [],
