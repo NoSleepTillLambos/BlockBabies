@@ -1,1 +1,18 @@
-<p>crafting works!</p>
+<!-- first verify user-->
+<div appAuthOnly [isVerified]="!isVerified" class="authCon">
+
+    <h4>Please verify yourself before crafting</h4>
+
+        <div style="text-align: center;">
+              <input [formControl]="username" placeholder="username" type="text">
+                <input [formControl]="password"  placeholder="password" type="password"> 
+        <button (click)="checkVerification()">Verify me</button>  
+        </div>
+        
+
+</div>
+
+<div class="wrap" appAuthOnly [isVerified]="isVerified">
+        <h3>Hey, {{username.value}}!</h3>
+        <p><a href="#" class="underlined underlined--offset">Check out your stock:</a></p>
+</div>  

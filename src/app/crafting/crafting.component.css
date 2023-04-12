@@ -1,0 +1,77 @@
+.wrap {
+  padding: 5% 5%;
+}
+h2 {
+  margin-top: 3em;
+  color: grey;
+}
+h2:first-child {
+  margin-top: 0;
+}
+.underlined {
+  color: black;
+  flex: 1;
+  font-size: 2em;
+  line-height: 1.2;
+  text-decoration: none;
+  background-image: linear-gradient(to right, yellow 0, yellow 100%);
+  background-position: 0 1.2em;
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: background 0.5s;
+}
+:hover {
+  background-size: 100% 100%;
+}
+.underlined--offset {
+  background-position: 0 0.2em;
+  box-shadow: inset 0 -0.5em 0 0 #57c5b6;
+}
+input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  text-align: center;
+  height: 30px;
+  margin: auto;
+  border-radius: 5px;
+  width: 15%;
+  margin-top: 6%;
+  display: block;
+}
+button {
+  margin-top: 6%;
+  width: 50%;
+  height: 30px;
+  border: none;
+  color: #57c5b6;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+}
+.authCon {
+  margin: auto;
+  width: 50%;
+  height: 500px;
+  margin-top: 6%;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 10px 10px 29px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 29px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 29px -7px rgba(0, 0, 0, 0.75);
+}
+h3 {
+  color: white;
+  font-size: 20px;
+  padding-top: 2%;
+  font-weight: bold;
+}
+h4 {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #1a5f7a;
+  padding-top: 2%;
+}

@@ -11,7 +11,7 @@ import { LocationComponent } from './location/location.component';
 
 const routes: Routes = [{path: 'home',component: HomeComponent},
 {path: 'crafting', component: CraftingComponent, data: {animation: 'isRight'}},
-{path: 'locations', component: LocationComponent},
+{path: 'locations', component: LocationComponent, data: {animation: "isLeft"}},
 { path: '**', component: PageNotFoundComponent }];
 
 @NgModule({
