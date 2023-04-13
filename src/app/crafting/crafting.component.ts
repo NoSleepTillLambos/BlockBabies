@@ -39,7 +39,6 @@ export class CraftingComponent {
   // CRUD FUNCTIONALITY
   items: Materials[] = []
 
-
   ngOnInit() {
     this.itemService.getAllItems().subscribe((data) => {
       this.items = data

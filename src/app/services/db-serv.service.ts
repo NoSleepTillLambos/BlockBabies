@@ -19,6 +19,6 @@ export class DbServService {
     return this.http.get<Materials[]>(this.url)
   }
   // create
-  createNewItem(item: Materials) {
+  createNewItem(items: Materials) {
   }
 }
