@@ -130,7 +130,8 @@ The features of this page include a doughnut chart, a bar graph displaying the m
 
 ## Concept Process
 
-Pintrest was my main source of inspiration, as a first time react user i brought in different aspects from a variety of sources and shaped them into something that would work well with an API. Something that users could engage with and latch onto.
+My main source of inspiration was drawn from Axie infinity, so a lot of my inspiration was desgined around them and their website and agenda
+Its a game i have quite a lot of experience using and a lot of time within the app so it helped a lot with my designs.
 
 ### Road Map and conceptual process
 
@@ -138,25 +139,19 @@ Pintrest was my main source of inspiration, as a first time react user i brought
 ![image5](src/Assets/wireframe2.png)
 ![image6](src/Assets/wireframe3.png)
 
-### Custom UI
-
-The custom UI I made use of was provided by CoinPonent, the UI banner sits at the top of my web application and provides the user with market movement and updates surrounding the Crpyto ecosystem
-
 <!-- DEVELOPMENT PROCESS -->
 
 ## Development Process
 
-Users are able to cycle through various currencies on the comparison and timeline page and display data about the various object properties all with help of the Coinlore API.
+I had to decide what my project was going to be based on and what the general theme would be.
 
 ### Implementation Process
 
 <!-- stipulate all of the functionality you included in the project -->
 <!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
 
-- Utilized React `Charts.JS` dependency for Data visualization
-- Implemented Routing with `React-Router v6`.
-- API End Point: https://api.coinlore.net/api/global/
-- Ticker and plugins were achieved with the help of: https://coinponent.com/crypto-converter-widget
+- I began by creating wire-frames and walkthrough prototypes so I could better understand the userflow
+- Working with a whole new framework was tough so learning the ins and outs before development was essential.
 
 #### Above And Beyond
 
@@ -164,9 +159,7 @@ Going above and beyond the brief
 
 <!-- what did you learn outside of the classroom and implement into your project-->
 
-- I explored the use of Material UI as a way to implement a cleaner and more visually appealing front end .
-- Through the use of CoinPonent I implemented a coin ticker bar.
-- Explain your understanding and execution of above skill.
+- Search functionality
 
 ### Future Implementation
 
@@ -210,8 +203,8 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 ## Contact
 
-- **Liam Wedge** - [21100218@virtualwindow.co.za]()
-- **Project Link** - https://github.com/NoSleepTillLambos/21100218_LiamWedge_DV_project
+- **Liam Wedge** - [liamwedge00@gmail.com]()
+- **Project Link** - https://github.com/NoSleepTillLambos/BlockBabies
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -219,8 +212,6 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 <!-- all resources that you used and Acknowledgements here -->
 
-- [Coinlore API](https://www.coinlore.com/cryptocurrency-data-api)
-- [Coinponent](https://coinponent.com/crypto-converter-widget)
-- [React](https://reactjs.org/)
-- [Material UI](https://v4.mui.com/)
-- [Charts JS](https://www.chartjs.org/)
+- [Angular](https://angular.io/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Angular material](https://material.angular.io/)
