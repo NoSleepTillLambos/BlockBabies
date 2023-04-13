@@ -13,8 +13,8 @@
 </br>
 <p align="center">
 
-  <a href="https://github.com/NoSleepTillLambos/AlgoCrypt">
-    <img src="public/unnamed.jpg" alt="Logo" width="140" height="140">
+  <a href="https://github.com/NoSleepTillLambos/BlockBabies">
+    <img src="src/assets/logo.svg" alt="Logo" width="140" height="140">
   </a>
   
   <h3 align="center">Block Babies</h3>
@@ -27,7 +27,7 @@
    <br />
    <a href="https://drive.google.com/drive/folders/1bHFGq7nIGPdDqJGrCNNCiSqTUyPk-h7F">View Demo</a>
     ·
-    <a href="https://github.com/NoSleepTillLambos/AlgoCrypt">Report Bug</a>
+    <a href="https://github.com/NoSleepTillLambos/BlockBabies">Report Bug</a>
     ·
     
 </p>
@@ -35,8 +35,8 @@
 
 ## Table of Contents
 
-- The project is centred around the cryptocurrency ecosystem and was run and developed through the use of REACT JS and was
-  - The application allows users to explore charts and prices from the various top market cap currencies
+- The project is centred around the world of Block babies, a fictional world I have developed based on the game <br/>
+  <a href="https://axieinfinity.com/">Axie infinity</a>
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [How to install](#how-to-install)
@@ -66,12 +66,11 @@ Algo crypt is a crypto currency web application designed to provide users with t
 
 ### Built With
 
-- [React](https://reactjs.org/)
-- [CoinLore](https://www.coinlore.com/cryptocurrency-data-api)
-- [Material UI V4](https://v4.mui.com/)
+- [Angular](https://angular.io/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Angular material](https://material.angular.io/)
 
 <!-- GETTING STARTED -->
-<!-- Make sure to add appropriate information about what prerequsite technologies the user would need and also the steps to install your project on their own machines -->
 
 ## Getting Started
 
@@ -88,13 +87,13 @@ Ensure that you have the latest version of [NPM](https://www.npmjs.com/) install
 Here are a couple of ways to clone this repo:
 
 1.  GitHub Desktop </br>
-    Enter `https://github.com/NoSleepTillLambos/21100218_LiamWedge_DV_project` into the URL field and press the `Clone` button.
+    Enter `https://github.com/NoSleepTillLambos/BlockBabies` into the URL field and press the `Clone` button.
 
 2.  Clone Repository </br>
     Run the following in the command-line to clone the project:
 
     ```sh
-    git clone https://github.com/NoSleepTillLambos/21100218_LiamWedge_DV_project
+    git clone https://github.com/NoSleepTillLambos/BlockBabies
     ```
 
         Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
@@ -173,9 +172,7 @@ Going above and beyond the brief
 
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
-- In the future i would like to get my timeline page fully functioning as i was not quite able to complete it due to time restrictions
-- I would like to actually implement a way for users to access the blockchain (I'm aiming high) through my website and possibly even
-  make transactions, who knows!.
+- In the future i would love to incorporate real world blockchain technology and maintain users funds.
 
 <!-- MOCKUPS -->
 
@@ -195,7 +192,7 @@ To see a run through of the application, please click below:
 
 [View Demonstration](https://drive.google.com/drive/folders/1IiMC4ZpDRhs8Q5RuAk9rlZmzaHfeihNa)
 
-See the [open issues](https://github.com/NoSleepTillLambos/21100218_LiamWedge_DV_project/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/NoSleepTillLambos/BlockBabies) for a list of proposed features (and known issues).
 
 <!-- AUTHORS -->
 
