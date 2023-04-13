@@ -4,7 +4,7 @@ h1 {
   padding-top: 10px;
   padding-left: 50px;
 }
-p {
+.wrap p {
   font-weight: bold;
 }
 h2 {
@@ -27,7 +27,7 @@ h2 {
   padding-top: 2%;
 }
 .content-div {
-  padding-bottom: 4%;
+  padding-bottom: 9%;
   width: 100%;
 }
 .content-div h3 {
@@ -36,10 +36,6 @@ h2 {
   font-size: 1.2rem;
   color: white;
   padding-top: 2%;
-}
-p {
-  padding-left: 50px;
-  font-size: 15px;
 }
 .bounce:hover {
   animation: bounce 1s linear;
@@ -62,8 +58,19 @@ p {
   }
 }
 footer {
-  height: 200px;
+  height: 110px;
+  position: fixed;
   width: 100%;
+  display: inline-block;
   background-color: #1a5f7a;
   color: white;
+  bottom: 0;
+}
+footer p {
+  display: inline-block;
+  padding-left: 23%;
+  font-size: 13px;
+  padding-top: 2.5%;
+  font-weight: 400;
+  text-align: center;
 }

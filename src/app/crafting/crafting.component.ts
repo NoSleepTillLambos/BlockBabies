@@ -29,13 +29,14 @@ export class CraftingComponent {
         window.alert("Welcome " + this.username.value)
         this.isVerified = true
       } else {
-        window.alert("Sorry something is wrong")
+        window.alert("Sorry your account or password is not valid")
         this.isVerified = false
       }
     })
     
   }
 
+  searchTerm = '';
   // CRUD FUNCTIONALITY
   items: Materials[] = []
 

@@ -7,7 +7,7 @@ h2 {
 }
 .example-card {
   width: 20%;
-  height: 10%;
+  height: 12%;
   display: inline-block;
   margin-right: 2%;
 }
@@ -22,7 +22,7 @@ h2:first-child {
   width: 15%;
   display: block;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   border: none;
 }
 .underlined {
@@ -60,7 +60,20 @@ h2:first-child {
 .authCon input::placeholder {
   opacity: 0.8;
 }
-button {
+.example-card button {
+  float: left;
+  outline: none;
+  height: 30px;
+  border-radius: 5px;
+  width: 50%;
+  display: block;
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-left: 5%;
+  border: none;
+}
+.authCon button {
   margin-top: 6%;
   width: 50%;
   height: 30px;

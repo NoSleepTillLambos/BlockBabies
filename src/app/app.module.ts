@@ -16,7 +16,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AuthOnlyDirective } from './directives/auth-only.directive';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
+import {MatDialogModule} from '@angular/material/dialog';
 import {MatCardModule} from '@angular/material/card';
+import { FilterPipe } from './filter.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +27,7 @@ import {MatCardModule} from '@angular/material/card';
     PageNotFoundComponent,
     LocationComponent,
     AuthOnlyDirective,
-    
+    FilterPipe,
   ],
   imports: [
     BrowserModule,
@@ -37,6 +39,7 @@ import {MatCardModule} from '@angular/material/card';
     MatSelectModule,
     ReactiveFormsModule,
     MatIconModule,
+    MatDialogModule,
     FormsModule,
     MatCardModule,
     HttpClientModule,
