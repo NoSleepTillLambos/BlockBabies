@@ -114,7 +114,7 @@ Here are a couple of ways to clone this repo:
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 
-![image2](src/Assets/mockup1.png)
+![image2](src/assets/mockup1.png)
 
 ### Feature 2
 
@@ -128,14 +128,14 @@ Login functionality that prevents a user from logging into without the correct c
 
 ## Concept Process
 
-My main source of inspiration was drawn from Axie infinity, so a lot of my inspiration was desgined around them and their website and agenda
+My main source of inspiration was drawn from Axie infinity, so a lot of my inspiration was designed around them and their website and agenda
 Its a game i have quite a lot of experience using and a lot of time within the app so it helped a lot with my designs.
 
 ### Road Map and conceptual process
 
-![image4](src/Assets/HomePage.png)
-![image5](src/Assets/CraftingPage.png)
-![image6](src/Assets/LocationPage.png)
+![image4](src/assets/mockup1.png)
+![image5](src/assets/CraftingPage.png)
+![image6](src/assets/LocationPage.png)
 
 <!-- DEVELOPMENT PROCESS -->
 
@@ -172,9 +172,9 @@ Going above and beyond the brief
 
 ### Mockups
 
-![image2](src/Assets/mockup2.png)
+![image2](src/assets/mockup2.png)
 <br>
-![image3](src/Assets/mokcup3.png)
+![image3](src/assets/mokcup3.png)
 
 <!-- VIDEO DEMONSTRATION -->
 
