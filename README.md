@@ -133,7 +133,7 @@ Its a game i have quite a lot of experience using and a lot of time within the a
 
 ### Road Map and conceptual process
 
-![image4](src/assets/mockup1.png)
+![image4](src/assets/HomePage.png)
 ![image5](src/assets/CraftingPage.png)
 ![image6](src/assets/LocationPage.png)
 
