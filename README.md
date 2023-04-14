@@ -114,13 +114,11 @@ Here are a couple of ways to clone this repo:
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 
-![image2](src/Assets/Liam_Wedge_21100218_HomePage.png)
+![image2](src/Assets/mockup1.png)
 
 ### Feature 2
 
-The features of this page include a doughnut chart, a bar graph displaying the market cap of the crypto Currency's in question and finally a polar area graph displaying the total market caps
-
-![image4][src/assets/4926360.png]
+Login functionality that prevents a user from logging into without the correct credentials and accessing the database and data within
 
 ### Feature 3
 
@@ -135,22 +133,23 @@ Its a game i have quite a lot of experience using and a lot of time within the a
 
 ### Road Map and conceptual process
 
-![image4](src/Assets/wireframe1.png)
-![image5](src/Assets/wireframe2.png)
-![image6](src/Assets/wireframe3.png)
+![image4](src/Assets/HomePage.png)
+![image5](src/Assets/CraftingPage.png)
+![image6](src/Assets/LocationPage.png)
 
 <!-- DEVELOPMENT PROCESS -->
 
 ## Development Process
 
-I had to decide what my project was going to be based on and what the general theme would be.
+I had to decide what my project was going to be based on and what the general theme would be. <br/> from playing Axie a lot
+and with the general idea being the same as what was expected of us in the brief i decided to base it off this.
 
 ### Implementation Process
 
 <!-- stipulate all of the functionality you included in the project -->
 <!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
 
-- I began by creating wire-frames and walkthrough prototypes so I could better understand the userflow
+- I began by creating wire-frames and walkthrough prototypes so I could better understand the user-flow
 - Working with a whole new framework was tough so learning the ins and outs before development was essential.
 
 #### Above And Beyond
@@ -173,9 +172,9 @@ Going above and beyond the brief
 
 ### Mockups
 
-![image2](src/Assets/Liam_Wedge_21100218_Mockup.png)
+![image2](src/Assets/mockup2.png)
 <br>
-![image3](src/Assets/4926360.png)
+![image3](src/Assets/mokcup3.png)
 
 <!-- VIDEO DEMONSTRATION -->
 

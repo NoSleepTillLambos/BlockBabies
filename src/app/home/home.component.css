@@ -3,6 +3,7 @@ h1 {
   font-size: 40px;
   padding-top: 10px;
   padding-left: 50px;
+  font-family: "Quicksand", sans-serif;
 }
 .wrap p {
   font-weight: bold;
@@ -12,6 +13,7 @@ h2 {
   font-size: 20px;
   padding-bottom: 5%;
   padding-left: 50px;
+  font-family: "Quicksand", sans-serif;
 }
 .inner-con {
   align-items: center;
@@ -36,6 +38,7 @@ h2 {
   font-size: 1.2rem;
   color: white;
   padding-top: 2%;
+  font-family: "Quicksand", sans-serif;
 }
 .bounce:hover {
   animation: bounce 1s linear;
