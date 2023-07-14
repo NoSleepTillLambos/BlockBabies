@@ -7,5 +7,10 @@ body {
 }
 body {
   margin: 0;
-  background-color: #57c5b6;
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=3d8c40&c2=a0e1a3&gt=l&gd=dbr
+*/
+  background: #3d8c40;
+  background: linear-gradient(315deg, #3d8c40, #a0e1a3);
 }

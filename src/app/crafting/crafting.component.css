@@ -25,18 +25,6 @@ h2:first-child {
   margin-bottom: 1rem;
   border: none;
 }
-.underlined {
-  color: black;
-  flex: 1;
-  font-size: 2em;
-  line-height: 1.2;
-  text-decoration: none;
-  background-image: linear-gradient(to right, yellow 0, yellow 100%);
-  background-position: 0 1.2em;
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: background 0.5s;
-}
 :hover {
   background-size: 100% 100%;
 }
