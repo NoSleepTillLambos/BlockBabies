@@ -10,6 +10,7 @@ h2 {
   height: 12%;
   display: inline-block;
   margin-right: 2%;
+  margin-top: 2%;
 }
 h2:first-child {
   margin-top: 0;

@@ -4,6 +4,7 @@ h1 {
   padding-top: 10px;
   padding-left: 50px;
   font-family: "Quicksand", sans-serif;
+  color: white;
 }
 .wrap p {
   font-weight: bold;
@@ -16,11 +17,10 @@ h2 {
   font-family: "Quicksand", sans-serif;
 }
 .inner-con {
-  align-items: center;
-  color: white;
-  width: 100%;
+  width: 50%;
   height: 50%;
-  padding-top: 3%;
+  padding-left: 15%;
+  color: white;
 }
 .logo-home {
   height: 7%;
@@ -29,8 +29,15 @@ h2 {
   padding-top: 2%;
 }
 .content-div {
-  padding-bottom: 9%;
-  width: 100%;
+  width: 80%;
+  float: right;
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(201, 255, 248, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
 }
 .content-div h3 {
   float: right;

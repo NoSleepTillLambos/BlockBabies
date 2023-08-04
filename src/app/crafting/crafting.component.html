@@ -16,13 +16,13 @@
         <h3>Hey, {{username.value}}!</h3>
         <p>Check out your stock:</p>
         <input matInput [(ngModel)]="searchTerm" placeholder="Search..." id="search-input">
-        <mat-card-title>Wings:</mat-card-title>
+        <mat-card-title>Current items:</mat-card-title>
         <mat-card class="example-card" *ngFor="let item of items | filter: searchTerm">
                 <mat-card-header >
                         <mat-card-title-group>
                         <mat-card-title>{{item.name}}</mat-card-title>
-                        <mat-card-subtitle>{{item.category}}</mat-card-subtitle>
-                        <mat-card-subtitle>Type: {{item.type}}</mat-card-subtitle>
+                        
+                        <mat-card-subtitle>Type: {{item.category}}</mat-card-subtitle>
                         <img mat-card-sm-image src={{item.image}}>
                         </mat-card-title-group>
                         
@@ -33,6 +33,6 @@
                         
                 </mat-card-content>
         </mat-card>
-        <mat-card-title>Hats :</mat-card-title>
+        
         
 </div>  
