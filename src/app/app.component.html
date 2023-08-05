@@ -1,12 +1,13 @@
-<div >
-  <img routerLink="/home" src="../assets/logo.svg" id="logo">
-    <nav class="side-nav">
-      <a routerLink="/crafting" routerLinkActive="active">Crafting</a>
+<div class="side-nav">
+      <ul>
+        <a routerLink="/crafting" routerLinkActive="active">Crafting</a>
       <a routerLink="/locations">Locations</a>
-    </nav>
+      </ul>
+      
+    
 </div>
     
 
-<main [@routeAnimations] = "prepareRoute(outlet)">
+<main >
   <router-outlet #outlet="outlet"></router-outlet>
 </main>

@@ -1,10 +1,10 @@
 h1 {
   font-weight: 500;
   font-size: 40px;
-  padding-top: 10px;
-  padding-left: 50px;
+  padding: 10px;
   font-family: "Quicksand", sans-serif;
   color: white;
+  padding-left: 2%;
 }
 .wrap p {
   font-weight: bold;
@@ -13,7 +13,8 @@ h2 {
   padding-top: 5px;
   font-size: 20px;
   padding-bottom: 5%;
-  padding-left: 50px;
+  padding: 2%;
+  color: white;
   font-family: "Quicksand", sans-serif;
 }
 .inner-con {
@@ -31,13 +32,16 @@ h2 {
 .content-div {
   width: 80%;
   float: right;
+  height: 92vh;
+  margin-left: 7%;
+  margin-top: 2%;
+  margin-right: 3%;
   /* From https://css.glass */
-  /* From https://css.glass */
-  background: rgba(201, 255, 248, 0.21);
+  background: rgba(201, 255, 248, 0.35);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(8.3px);
-  -webkit-backdrop-filter: blur(8.3px);
+  backdrop-filter: blur(16.7px);
+  -webkit-backdrop-filter: blur(16.7px);
 }
 .content-div h3 {
   float: right;
@@ -46,41 +50,4 @@ h2 {
   color: white;
   padding-top: 2%;
   font-family: "Quicksand", sans-serif;
-}
-.bounce:hover {
-  animation: bounce 1s linear;
-}
-@keyframes bounce {
-  20%,
-  50%,
-  80%,
-  to {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  70% {
-    transform: translateY(-15px);
-  }
-  90% {
-    transform: translateY(-4px);
-  }
-}
-footer {
-  height: 110px;
-  position: fixed;
-  width: 100%;
-  display: inline-block;
-  background-color: #1a5f7a;
-  color: white;
-  bottom: 0;
-}
-footer p {
-  display: inline-block;
-  padding-left: 23%;
-  font-size: 13px;
-  padding-top: 2.5%;
-  font-weight: 400;
-  text-align: center;
 }
