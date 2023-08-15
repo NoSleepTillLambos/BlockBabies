@@ -52,26 +52,26 @@ button:hover {
   backdrop-filter: blur(16.7px);
   -webkit-backdrop-filter: blur(16.7px);
 }
-h2,
-h3,
-h4,
-h1 {
+
+h2 {
   color: white;
   font-family: "Quicksand", sans-serif;
-}
-h2 {
   font-size: x-large;
   text-align: center;
   margin-top: 2%;
 }
 h3 {
+  color: white;
   font-size: large;
 }
 h4 {
+  color: white;
   padding-top: 2%;
+  font-family: "Quicksand", sans-serif;
 }
 h1 {
   text-align: center;
-
+  color: white;
   margin-top: 4%;
+  font-family: "Quicksand", sans-serif;
 }

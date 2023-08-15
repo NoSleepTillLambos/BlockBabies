@@ -6,17 +6,14 @@
   left: 15%;
   border-radius: 20px;
 }
-h1 {
-  font-weight: bold;
-  padding-top: 2%;
-}
 .allInventory {
   margin-top: 3%;
+  overflow: auto;
 }
 .materialCard {
   width: 10%;
   height: 12%;
-  margin-right: 2%;
+  margin-right: 3.3%;
   margin-top: 2%;
   display: inline-block;
   width: 30%;
@@ -67,7 +64,7 @@ h1 {
   font-size: medium;
   font-family: "Quicksand", sans-serif;
 }
-h2 {
+.inventoryPage h2 {
   color: white;
   font-family: "Quicksand", sans-serif;
   font-size: x-large;
@@ -83,20 +80,17 @@ h4 {
   padding-top: 2%;
   font-family: "Quicksand", sans-serif;
 }
-h1 {
-  text-align: center;
+.inventoryPage h1 {
   color: white;
-  margin-top: 4%;
+  margin-top: 1%;
   font-family: "Quicksand", sans-serif;
 }
 #search-input {
   outline: none;
   text-align: center;
   height: 30px;
-  border-radius: 5px;
+  border-radius: 16px;
   width: 15%;
   display: block;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
   border: none;
 }

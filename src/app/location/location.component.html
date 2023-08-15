@@ -7,17 +7,20 @@
       <!-- ALL INVENTORY ITEMS-->
       <mat-tab class="tab" label="All inventory">
         <div class="allInventory">
-          <div class="allItems">
+         
+            <input matInput [(ngModel)]="searchTerm" placeholder="Search..." id="search-input">
             <div class="materialCard" *ngFor="let item of items | filter: searchTerm">
+              
               <h2>{{item.name}}</h2>
               <h3 style="text-align: center;">Type: {{item.category}}</h3>
               <img class="matImg" src={{item.image}}>
               <button>Edit Quantity</button>
             </div>
-          </div>
+          
         </div>
       </mat-tab>
 
+      <!-- WARRIOR GEAR -->
       <mat-tab label="Warrior gear"> Content 1 </mat-tab>
 
 
