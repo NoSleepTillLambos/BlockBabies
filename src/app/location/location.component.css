@@ -1,14 +1,102 @@
-.location-field {
-  width: 60%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.inventoryPage {
+  width: 70%;
+  position: absolute;
+  color: white;
+  top: 2%;
+  left: 15%;
+  border-radius: 20px;
 }
 h1 {
-  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  padding-top: 2%;
+}
+.allInventory {
+  margin-top: 3%;
+}
+.materialCard {
+  width: 10%;
+  height: 12%;
+  margin-right: 2%;
+  margin-top: 2%;
+  display: inline-block;
+  width: 30%;
+  background: #57c5b6;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.7px);
+  -webkit-backdrop-filter: blur(16.7px);
+}
+.matImg {
+  height: 120px;
+  width: 100px;
+  padding-left: 40%;
+}
+.authCon input {
+  background-color: #002233;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: none;
   text-align: center;
-  font-size: 40px;
-  padding: 2rem;
+  height: 40px;
+  margin: auto;
+  border-radius: 5px;
   color: white;
+  width: 15%;
+  margin-top: 6%;
+  display: block;
+  border: none;
+  font-weight: bold;
+}
+.materialCard button {
+  outline: none;
+  height: 30px;
+  border-radius: 5px;
+  width: 50%;
+  align-items: center;
+  background: rgba(201, 255, 248, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.7px);
+  -webkit-backdrop-filter: blur(16.7px);
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-left: 25%;
+  border: none;
+  color: #002233;
+  font-size: medium;
+  font-family: "Quicksand", sans-serif;
+}
+h2 {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 2%;
+}
+h3 {
+  color: white;
+  font-size: large;
+}
+h4 {
+  color: white;
+  padding-top: 2%;
+  font-family: "Quicksand", sans-serif;
+}
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 4%;
+  font-family: "Quicksand", sans-serif;
+}
+#search-input {
+  outline: none;
+  text-align: center;
+  height: 30px;
+  border-radius: 5px;
+  width: 15%;
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border: none;
 }

@@ -1,14 +1,32 @@
+<div class="inventoryPage" >
+  <h1>Your inventory</h1>
+  <div class="inventoryCon">
 
-<div>
-  <h1>Location</h1>
+    
+    <mat-tab-group  mat-stretch-tabs="false" mat-align-tabs="start" backgroundColor="primary">
+      <!-- ALL INVENTORY ITEMS-->
+      <mat-tab class="tab" label="All inventory">
+        <div class="allInventory">
+          <div class="allItems">
+            <div class="materialCard" *ngFor="let item of items | filter: searchTerm">
+              <h2>{{item.name}}</h2>
+              <h3 style="text-align: center;">Type: {{item.category}}</h3>
+              <img class="matImg" src={{item.image}}>
+              <button>Edit Quantity</button>
+            </div>
+          </div>
+        </div>
+      </mat-tab>
 
-<mat-form-field appearance="fill" class="location-field">
-    <mat-label>Choose a planet</mat-label>
-    <mat-select>
-      <mat-option value="html">Zorgon</mat-option>
-      <mat-option value="css">Miura</mat-option>
-      <mat-option value="js">Majesty</mat-option>
-    </mat-select>
-</mat-form-field>
+      <mat-tab label="Warrior gear"> Content 1 </mat-tab>
 
+
+
+      <mat-tab label="Gatherer gear"> Content 2 </mat-tab>
+      <mat-tab label="Hunter gear"> Content 3 </mat-tab>
+    </mat-tab-group>
+  </div>
+  
 </div>
+
+

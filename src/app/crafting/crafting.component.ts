@@ -13,28 +13,12 @@ export class CraftingComponent {
 
   constructor (private verify: VerifyService, private itemService: DbServService) {}
 
-  value = 'clear me';
-
   // is user verified
   isVerified = false;
 
   hide = true;
-
   ShowPassword: any;
-
   show = false;
-
-  
-
-  onClick() {
-    if (this.ShowPassword === 'password') {
-      this.ShowPassword = 'text';
-      this.show = true;
-    } else {
-      this.ShowPassword = 'password';
-      this.show = false;
-    }
-  }
 
   username = new FormControl("");
   password = new FormControl("");

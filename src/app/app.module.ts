@@ -19,6 +19,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatCardModule} from '@angular/material/card';
 import { FilterPipe } from './filter.pipe';
+import { MatTabsModule } from '@angular/material/tabs';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,9 +42,11 @@ import { FilterPipe } from './filter.pipe';
     ReactiveFormsModule,
     MatIconModule,
     MatDialogModule,
+    MatTabsModule,
     FormsModule,
     MatCardModule,
     HttpClientModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
