@@ -2,37 +2,30 @@
 <div>
         <div appAuthOnly [isVerified]="!isVerified" class="authCon">
 
-                <h2>Please verify yourself before crafting</h2>
+                <h1>Please verify yourself before crafting</h1>
             
-                    <div style="text-align: center;">
+                    <div style="text-align: center; color: white;">
                           <input [formControl]="username" placeholder="username" type="text">
                             <input [formControl]="password"  placeholder="password" type="password"> 
-                    <button (click)="checkVerification()">Verify me</button>  
+                    <button (click)="checkVerification()"><p>Verify me</p></button>  
                     </div>
                     
             
             </div>
-            
-            <div appAuthOnly [isVerified]="isVerified">
-                    <h3>Hey, {{username.value}}!</h3>
-                    <p>Check out your stock:</p>
+            <!-- appAuthOnly [isVerified]="isVerified"  -->
+            <div  class="authenticatedView">
+                    <h2>Welcome, {{username.value}}</h2>
+                    <h3>Check out your available stock:</h3>
                     <input matInput [(ngModel)]="searchTerm" placeholder="Search..." id="search-input">
-                    <mat-card-title>Current items:</mat-card-title>
-                    <div class="example-card" *ngFor="let item of items | filter: searchTerm">
-                            <mat-card-header >
-                                    <mat-card-title-group>
-                                    <mat-card-title>{{item.name}}</mat-card-title>
-                                    
-                                    <mat-card-subtitle>Type: {{item.category}}</mat-card-subtitle>
-                                    <img mat-card-sm-image src={{item.image}}>
-                                    </mat-card-title-group>
-                                    
-            
-                            </mat-card-header>
-                            <button>Edit</button>
+                
+                    <div class="materialCard" *ngFor="let item of items | filter: searchTerm">
+                                    <h2>{{item.name}}</h2>
+                                    <h3 style="text-align: center;">Type: {{item.category}}</h3>
+                                    <img class="matImg" src={{item.image}}>
+                            <button>Edit Quantity</button>
                             
-                    </div>
+                </div>
                     
                     
-            </div>    
+        </div>    
 </div>

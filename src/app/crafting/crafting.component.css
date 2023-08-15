@@ -1,9 +1,35 @@
-.example-card {
-  width: 20%;
+body {
+  background-color: #002233;
+}
+.materialCard {
+  width: 10%;
   height: 12%;
-
   margin-right: 2%;
   margin-top: 2%;
+  display: inline-block;
+  width: 30%;
+  background: #57c5b6;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.7px);
+  -webkit-backdrop-filter: blur(16.7px);
+}
+.authenticatedView {
+  width: 80%;
+  position: absolute;
+  z-index: 99;
+  margin: auto;
+  max-height: 100vh;
+  overflow: scroll;
+  margin-top: 2%;
+  left: 20;
+  right: 0;
+  overflow: auto;
+}
+.matImg {
+  height: 120px;
+  width: 100px;
+  padding-left: 40%;
 }
 #search-input {
   outline: none;
@@ -17,42 +43,50 @@
   border: none;
 }
 .authCon input {
+  background-color: #002233;
   margin-top: 20px;
   margin-bottom: 20px;
   outline: none;
   text-align: center;
-  height: 30px;
+  height: 40px;
   margin: auto;
   border-radius: 5px;
+  color: white;
   width: 15%;
   margin-top: 6%;
   display: block;
   border: none;
+  font-weight: bold;
 }
-.authCon input::placeholder {
-  opacity: 0.8;
-}
-.example-card button {
-  float: left;
+.materialCard button {
   outline: none;
   height: 30px;
   border-radius: 5px;
   width: 50%;
-  display: block;
+  align-items: center;
+  background: rgba(201, 255, 248, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.7px);
+  -webkit-backdrop-filter: blur(16.7px);
   margin-top: 1rem;
   text-align: center;
   margin-bottom: 1rem;
-  margin-left: 5%;
+  margin-left: 25%;
   border: none;
+  color: #002233;
+  font-size: medium;
+  font-family: "Quicksand", sans-serif;
 }
 .authCon button {
   margin-top: 6%;
-  width: 50%;
-  height: 30px;
+  width: 40%;
+  height: 70px;
   border: none;
   color: #57c5b6;
   border-radius: 5px;
   cursor: pointer;
+  font-size: large;
 }
 button:hover {
   opacity: 0.8;
@@ -64,23 +98,31 @@ button:hover {
   height: 50vh;
   margin-left: 25%;
   border-radius: 16px;
-  /* From https://css.glass */
   background: rgba(201, 255, 248, 0.35);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(16.7px);
   -webkit-backdrop-filter: blur(16.7px);
 }
-h3 h4 {
+h2 {
   color: white;
-  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 2%;
+}
+h3 {
+  color: white;
+  font-size: large;
+}
+h4 {
+  color: white;
   padding-top: 2%;
   font-family: "Quicksand", sans-serif;
 }
-h2 {
+h1 {
   text-align: center;
   color: white;
   margin-top: 4%;
   font-family: "Quicksand", sans-serif;
-  font-weight: bold;
 }
