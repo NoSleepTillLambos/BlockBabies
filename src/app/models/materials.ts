@@ -1,8 +1,8 @@
 export interface Materials {
+    _id?: string;
+    image: string;
     name: string;
     category: string;
-    height: number;
-    type: string;
-    image: string;
+    quantity: string;
 }
 // all our interfaces

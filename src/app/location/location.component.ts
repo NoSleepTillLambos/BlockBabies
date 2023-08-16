@@ -1,7 +1,9 @@
 import { Component,EventEmitter,ViewEncapsulation, Output } from '@angular/core';
 import { VerifyService } from '../services/verify.service';
 import { DbServService } from '../services/db-serv.service';
+import { RecipeService } from '../services/recipe.service';
 import { Materials } from '../models/materials';
+import { Recipe } from '../models/recipe';
 @Component({
   selector: 'app-location',
   templateUrl: './location.component.html',
@@ -10,13 +12,18 @@ import { Materials } from '../models/materials';
 })
 export class LocationComponent {
 
-  constructor (private verify: VerifyService, private itemService: DbServService) {}
+  constructor (private verify: VerifyService, private itemService: DbServService, private recipeService: RecipeService) {}
 
-  items: Materials[] = []
+  inventory: Materials[] = []
+  recipes: Recipe[] = []
+  // warriorItems : Materials[] = []
 
   ngOnInit() {
     this.itemService.getAllItems().subscribe((data) => {
-      this.items = data
+      this.inventory = data
+    })
+    this.recipeService.getAllRecipes().subscribe((recipeData) => {
+      this.recipes = recipeData;
     })
   }
 

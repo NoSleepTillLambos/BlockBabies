@@ -12,13 +12,16 @@ export class DbServService {
 
   url: string = "http://localhost:3000/inventory"
 
-  items: Materials[] =[]
+  inventory: Materials[] = []
 
+  // ALL CRUD
   // READ
-  getAllItems(): Observable<Materials[]> {
+  getAllItems(): Observable<Materials[]>{
     return this.http.get<Materials[]>(this.url)
   }
-  // create
-  createNewItem(items: Materials) {
+
+  // UPDATE
+  updateQuantity(_id: string, quantity: number): Observable<Materials>{
+    return this.http.put<Materials>(`${this.url}/${_id}`, {quantity})
   }
 }

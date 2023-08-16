@@ -9,10 +9,10 @@
         <div class="allInventory">
          
             <input matInput [(ngModel)]="searchTerm" placeholder="Search..." id="search-input">
-            <div class="materialCard" *ngFor="let item of items | filter: searchTerm">
+            <div class="materialCard" *ngFor="let item of inventory | filter: searchTerm">
               
               <h2>{{item.name}}</h2>
-              <h3 style="text-align: center;">Type: {{item.category}}</h3>
+              <h3 style="text-align: center;">Category: {{item.category}}</h3>
               <img class="matImg" src={{item.image}}>
               <button>Edit Quantity</button>
             </div>
@@ -21,12 +21,43 @@
       </mat-tab>
 
       <!-- WARRIOR GEAR -->
-      <mat-tab label="Warrior gear"> Content 1 </mat-tab>
+      <mat-tab label="Weapons">
+        <div class="allInventory">
+         
+          <div class="materialCard" *ngFor="let item of inventory | filter: 'Weapon'">
+            <h2>{{item.name}}</h2>
+            <h3 style="text-align: center;">Category: {{item.category}}</h3>
+            <img class="matImg" src={{item.image}}>
+            <button>Edit Quantity</button>
+          </div>
+        </div>
+      </mat-tab>
 
+      <!-- GATHERER GEAR-->
+      <mat-tab label="Gatherer gear"> 
+        <div class="allInventory">
+         
+          <div class="materialCard" *ngFor="let item of inventory ">
+            <h2>{{item.name}}</h2>
+            <h3 style="text-align: center;">Category: {{item.category}}</h3>
+            <img class="matImg" src={{item.image}}>
+            <button>Edit Quantity</button>
+          </div>
+        </div>
+      </mat-tab>
 
-
-      <mat-tab label="Gatherer gear"> Content 2 </mat-tab>
-      <mat-tab label="Hunter gear"> Content 3 </mat-tab>
+      <!-- HUNTER GEAR -->
+      <mat-tab label="Hunter gear">
+        <div class="allInventory">
+         
+          <div class="materialCard" *ngFor="let item of inventory ">
+            <h2>{{item.name}}</h2>
+            <h3 style="text-align: center;">Category: {{item.category}}</h3>
+            <img class="matImg" src={{item.image}}>
+            <button>Edit Quantity</button>
+          </div>
+        </div>  
+      </mat-tab>
     </mat-tab-group>
   </div>
   
