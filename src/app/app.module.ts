@@ -18,8 +18,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatCardModule} from '@angular/material/card';
-import { FilterPipe } from './filter.pipe';
+import { FilterPipe } from './Pipes/filter.pipe';
 import { MatTabsModule } from '@angular/material/tabs';
+import { CategoryPipe } from './Pipes/category.pipe';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     LocationComponent,
     AuthOnlyDirective,
     FilterPipe,
+    CategoryPipe,
   ],
   imports: [
     BrowserModule,

@@ -24,7 +24,7 @@
       <mat-tab label="Weapons">
         <div class="allInventory">
          
-          <div class="materialCard" *ngFor="let item of inventory | filter: 'Weapon'">
+          <div class="materialCard" *ngFor="let item of inventory | category: 'Weapon' : 'category'">
             <h2>{{item.name}}</h2>
             <h3 style="text-align: center;">Category: {{item.category}}</h3>
             <img class="matImg" src={{item.image}}>
@@ -34,10 +34,10 @@
       </mat-tab>
 
       <!-- GATHERER GEAR-->
-      <mat-tab label="Gatherer gear"> 
+      <mat-tab label="Accessories"> 
         <div class="allInventory">
          
-          <div class="materialCard" *ngFor="let item of inventory ">
+          <div class="materialCard" *ngFor="let item of inventory | category: 'Accessories' : 'category'">
             <h2>{{item.name}}</h2>
             <h3 style="text-align: center;">Category: {{item.category}}</h3>
             <img class="matImg" src={{item.image}}>
@@ -47,10 +47,10 @@
       </mat-tab>
 
       <!-- HUNTER GEAR -->
-      <mat-tab label="Hunter gear">
+      <mat-tab label="Defense">
         <div class="allInventory">
          
-          <div class="materialCard" *ngFor="let item of inventory ">
+          <div class="materialCard" *ngFor="let item of inventory | category: 'Defense' : 'category'">
             <h2>{{item.name}}</h2>
             <h3 style="text-align: center;">Category: {{item.category}}</h3>
             <img class="matImg" src={{item.image}}>

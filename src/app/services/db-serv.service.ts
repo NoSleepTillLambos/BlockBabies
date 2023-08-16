@@ -21,7 +21,7 @@ export class DbServService {
   }
 
   // UPDATE
-  updateQuantity(_id: string, quantity: number): Observable<Materials>{
-    return this.http.put<Materials>(`${this.url}/${_id}`, {quantity})
-  }
+  // updateQuantity(_id: string, quantity: number): Observable<Materials>{
+  //   return this.http.put<Materials>(`${this.url}/${_id}`, {quantity})
+  // }
 }
