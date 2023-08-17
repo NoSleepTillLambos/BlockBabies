@@ -1,5 +1,5 @@
 .inventoryPage {
-  width: 70%;
+  width: 75%;
   position: absolute;
   color: white;
   top: 2%;
@@ -11,17 +11,18 @@
   overflow: auto;
 }
 .materialCard {
-  width: 10%;
-  height: 12%;
+  height: 10%;
   margin-right: 3.3%;
   margin-top: 2%;
   display: inline-block;
-  width: 30%;
-  background: #57c5b6;
+  width: 21%;
+  /* From https://css.glass */
+  background: rgba(87, 197, 182, 0.53);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(16.7px);
-  -webkit-backdrop-filter: blur(16.7px);
+  backdrop-filter: blur(4.4px);
+  -webkit-backdrop-filter: blur(4.4px);
+  border: 1px solid rgba(87, 197, 182, 1);
 }
 .matImg {
   height: 120px;

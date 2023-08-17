@@ -2,28 +2,30 @@
 <div>
         <div appAuthOnly [isVerified]="!isVerified" class="authCon">
 
-                <h1>Please verify yourself before crafting</h1>
+                <h2>Please verify yourself before crafting</h2>
             
-                    <div style="text-align: center; color: white;">
-                          <input [formControl]="username" placeholder="username" type="text">
-                            <input [formControl]="password"  placeholder="password" type="password"> 
-                    <button (click)="checkVerification()"><p>Verify me</p></button>  
+                    <div style="text-align: center;">
+                        <input [formControl]="username" placeholder="username" type="text">
+                        <input [formControl]="password"  placeholder="password" type="password"> 
+                        <button (click)="checkVerification()"><h3>Verify me</h3></button> 
                     </div>
+                           
+                    
                     
             
-            </div>
-            <!-- appAuthOnly [isVerified]="isVerified"  -->
-            <div  class="authenticatedView">
-                    <h2>Welcome, {{username.value}}</h2>
-                    <!-- <h3>Check out your available stock:</h3>
+        </div>
+            <!--   -->
+                <div appAuthOnly [isVerified]="isVerified" class="authenticatedView">
+                    <h5>Welcome, {{username.value}}</h5>
+                        <!-- <h3>Check out your available stock:</h3>
                     <div class="materialCard" *ngFor="let item of items | filter: searchTerm">
                                     <h2>{{item.name}}</h2>
                                     <h3 style="text-align: center;">Type: {{item.category}}</h3>
                                     <img class="matImg" src={{item.image}}>
                             <button>Edit Quantity</button>
                              -->
-                <!-- </div> -->
+                        <!-- </div> -->
                     
                     
-        </div>    
+                </div>    
 </div>

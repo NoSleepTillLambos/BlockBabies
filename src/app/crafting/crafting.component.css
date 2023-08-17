@@ -1,24 +1,20 @@
 .authenticatedView {
-  width: 80%;
+  width: 85%;
   position: absolute;
   z-index: 99;
   margin: auto;
   max-height: 100vh;
-  overflow: scroll;
   margin-top: 2%;
   left: 20;
   right: 0;
-  overflow: auto;
 }
 .authCon input {
   background-color: #002233;
-  margin-top: 20px;
-  margin-bottom: 20px;
   outline: none;
   text-align: center;
   height: 40px;
   margin: auto;
-  border-radius: 5px;
+  border-radius: 16px;
   color: white;
   width: 15%;
   margin-top: 6%;
@@ -27,12 +23,12 @@
   font-weight: bold;
 }
 .authCon button {
-  margin-top: 6%;
-  width: 40%;
-  height: 70px;
+  margin-top: 3%;
+  width: 30%;
+  height: 10%;
   border: none;
   color: #57c5b6;
-  border-radius: 5px;
+  border-radius: 16px;
   cursor: pointer;
   font-size: large;
 }
@@ -52,7 +48,6 @@ button:hover {
   backdrop-filter: blur(16.7px);
   -webkit-backdrop-filter: blur(16.7px);
 }
-
 h2 {
   color: white;
   font-family: "Quicksand", sans-serif;
@@ -60,9 +55,10 @@ h2 {
   text-align: center;
   margin-top: 2%;
 }
-h3 {
-  color: white;
-  font-size: large;
+.authCon h3 {
+  color: #002233;
+  margin-top: 5%;
+  font-size: medium;
 }
 h4 {
   color: white;
@@ -70,8 +66,12 @@ h4 {
   font-family: "Quicksand", sans-serif;
 }
 h1 {
-  text-align: center;
   color: white;
   margin-top: 4%;
   font-family: "Quicksand", sans-serif;
+}
+h5 {
+  color: white;
+  font-size: large;
+  margin-top: 2%;
 }
