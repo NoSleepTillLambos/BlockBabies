@@ -12,6 +12,7 @@ import { LocationComponent } from './location/location.component';
 const routes: Routes = [
 {path: 'home',component: HomeComponent},
 {path: 'crafting', component: CraftingComponent },
+{path: "", redirectTo: "home", pathMatch: "full"}, // when the site opens we redirect to the home page straight away
 {path: 'locations', component: LocationComponent },
 { path: '**', component: PageNotFoundComponent }
 ];

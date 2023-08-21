@@ -17,14 +17,24 @@
             <!--   -->
                 <div appAuthOnly [isVerified]="isVerified" class="authenticatedView">
                     <h5>Welcome, {{username.value}}</h5>
-                        <!-- <h3>Check out your available stock:</h3>
-                    <div class="materialCard" *ngFor="let item of items | filter: searchTerm">
-                                    <h2>{{item.name}}</h2>
-                                    <h3 style="text-align: center;">Type: {{item.category}}</h3>
-                                    <img class="matImg" src={{item.image}}>
-                            <button>Edit Quantity</button>
-                             -->
-                        <!-- </div> -->
+                    <div class="craft-item" *ngFor="let recipe of Recipes">
+                        <img src="assets/hammer.png" width="50" height="50"/>
+                        <h2>{{recipe.name}}</h2>
+                        <h5>{{recipe.description}}</h5>
+                        
+                        <h6>Ingredients:</h6>
+                        <ul>
+                            <li *ngFor="let ingredient of recipe.ingredients">
+                                <span>{{ingredient.amountNeeded}}</span>
+                                <span>{{ingredient.inventoryId.title}}</span>
+                                <span>{{ingredient.inventoryId.amount}</span>
+                            </li>
+                        </ul>
+                        <div class="craft-button">
+                            <p>Current Amount: {{recipe.amount}}</p>
+                            <button (click)="craftRecipe(recipe._id!)" *ngIf="recipe.isCraftable" class="update-btn" mat-flat-button color="accent">Craft</button>
+                        </div> 
+                </div>
                     
                     
                 </div>    

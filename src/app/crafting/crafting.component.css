@@ -75,3 +75,24 @@ h5 {
   font-size: large;
   margin-top: 2%;
 }
+.craft-containers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.craft-item {
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  padding: 20px;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.craft-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}

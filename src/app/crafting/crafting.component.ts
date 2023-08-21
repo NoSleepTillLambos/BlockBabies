@@ -3,6 +3,8 @@ import { FormControl} from '@angular/forms';
 import { VerifyService } from '../services/verify.service';
 import { DbServService } from '../services/db-serv.service';
 import { Materials } from '../models/materials';
+import { CraftService } from '../services/craft.service';
+import { Recipe } from '../models/recipe';
 
 @Component({
   selector: 'app-crafting',
@@ -11,10 +13,11 @@ import { Materials } from '../models/materials';
 })
 export class CraftingComponent {
 
-  constructor (private verify: VerifyService, private itemService: DbServService) {}
+  constructor (private verify: VerifyService, private itemService: DbServService, private craft: CraftService) {}
 
   // is user verified
   isVerified = false;
+  isCrafting = false;
 
   hide = true;
   ShowPassword: any;
@@ -22,6 +25,16 @@ export class CraftingComponent {
 
   username = new FormControl("");
   password = new FormControl("");
+
+  // list of recipes variable
+  Recipes: Recipe[]= []
+
+  ngOnInit() {
+    this.craft.getAllRecipes().subscribe((data) => {
+      this.Recipes = data
+      console.log(data)
+    })
+  }
 
   checkVerification() {
     this.verify.checkVerification(this.username.value!, this.password.value!).subscribe((response) => {
@@ -36,17 +49,13 @@ export class CraftingComponent {
     
   }
 
+  
+
   searchTerm = '';
   // CRUD FUNCTIONALITY
   items: Materials[] = []
 
-  ngOnInit() {
-    this.itemService.getAllItems().subscribe((data) => {
-      this.items = data
-    })
-    this.ShowPassword = 'password';
-  }
-
+  
   enteredSearchString: string = "";
 
   @Output()
@@ -56,4 +65,15 @@ export class CraftingComponent {
   onSearch() {
     this.searchTextChange.emit(this.enteredSearchString);
   }
-}
+
+  craftRecipe(recipeId : string){
+    this.isCrafting = true;
+      this.craft.craftRecipe(recipeId!).subscribe((response) => {
+        this.isCrafting = false
+        if(response.success){
+          
+        }
+      })
+    }
+  }
+
