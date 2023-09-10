@@ -35,4 +35,20 @@ export class LocationComponent {
   onSearch() {
     this.searchTextChange.emit(this.enteredSearchString);
   }
+
+  // UPDATE
+  newQuantityPlaceholder: number = 0
+
+  detectQuantityChange(e: any){
+    this.newQuantityPlaceholder = +e.target.value;
+  }
+
+  updateQuantity(_id: string){
+     
+      this.itemService.updateQuantity(_id, this.newQuantityPlaceholder).subscribe((item) => {
+        console.log(item.quantity)
+      })
+  }
+  
+  
 }

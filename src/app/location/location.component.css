@@ -27,7 +27,7 @@
 .matImg {
   height: 120px;
   width: 100px;
-  padding-left: 40%;
+  margin-left: 30%;
 }
 .authCon input {
   background-color: #002233;
@@ -49,21 +49,24 @@
   outline: none;
   height: 30px;
   border-radius: 5px;
-  width: 50%;
+  width: 40%;
   align-items: center;
   background: rgba(201, 255, 248, 0.35);
-  border-radius: 16px;
+  border-radius: 6px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(16.7px);
   -webkit-backdrop-filter: blur(16.7px);
   margin-top: 1rem;
   text-align: center;
   margin-bottom: 1rem;
-  margin-left: 25%;
+  margin-left: 15%;
   border: none;
   color: #002233;
-  font-size: medium;
+  font-size: small;
   font-family: "Quicksand", sans-serif;
+}
+.materialCard button:hover {
+  cursor: pointer;
 }
 .inventoryPage h2 {
   color: white;
@@ -90,8 +93,29 @@ h4 {
   outline: none;
   text-align: center;
   height: 30px;
-  border-radius: 16px;
+  color: white;
+  background: rgba(201, 255, 248, 0.35);
+  border-radius: 6px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.7px);
+  -webkit-backdrop-filter: blur(16.7px);
   width: 15%;
   display: block;
   border: none;
+}
+#search-input::placeholder {
+  color: white;
+}
+.editQuant {
+  border: none;
+  width: 22%;
+  height: 30px;
+  margin-left: 10%;
+  align-items: center;
+  background: rgba(201, 255, 248, 0.35);
+  border-radius: 6px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.7px);
+  -webkit-backdrop-filter: blur(16.7px);
+  text-align: center;
 }

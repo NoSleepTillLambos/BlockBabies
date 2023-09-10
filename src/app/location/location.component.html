@@ -14,7 +14,9 @@
               <h2>{{item.name}}</h2>
               <h3 style="text-align: center;">Category: {{item.category}}</h3>
               <img class="matImg" src={{item.image}}>
-              <button>Edit Quantity</button>
+              <!-- editing quantity values -->
+              <input [value]="item.quantity" (change)="detectQuantityChange($event)" class="editQuant"/>
+              <button (click)="updateQuantity(item._id!)">Edit Quantity</button>
             </div>
           
         </div>

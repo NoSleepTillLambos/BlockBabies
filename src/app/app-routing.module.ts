@@ -23,3 +23,23 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+
+//Location 1: HOME
+// Inventory:
+// - Hammer 
+// - Cape
+// Craft items:
+// - Hammer with Cape (ingredients: hammer and cape)
+// Armand Pretorius10:47
+// Location 2: OFFICE
+// Inventory:
+// - Shield
+// - Glasses
+// Craft items:
+// - Shield with glasses (ingredients: glasses and shield)
+// - Glasses with a shield (ingredients: glassas and shield)
+
+// * INVENTORY IS DIFFERENT IN EACH LOCATION
+// * CRAFT ITEMS ARE DIFFERENT IN EACH LOCATION
+// * EACH CRAFT ITEM IS ONLY USING THE INVENTORY OF THAT SPECIFIC LOCATION OF THE ITEM
