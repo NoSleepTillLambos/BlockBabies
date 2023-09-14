@@ -8,12 +8,14 @@ import { CraftingComponent } from './crafting/crafting.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { LocationComponent } from './location/location.component';
+import { ArmiesComponent } from './armies/armies.component';
 
 const routes: Routes = [
 {path: 'home',component: HomeComponent},
 {path: 'crafting', component: CraftingComponent },
 {path: "", redirectTo: "home", pathMatch: "full"}, // when the site opens we redirect to the home page straight away
 {path: 'locations', component: LocationComponent },
+{path: 'armies', component: ArmiesComponent },
 { path: '**', component: PageNotFoundComponent }
 ];
 

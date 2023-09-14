@@ -21,6 +21,7 @@ import {MatCardModule} from '@angular/material/card';
 import { FilterPipe } from './Pipes/filter.pipe';
 import { MatTabsModule } from '@angular/material/tabs';
 import { CategoryPipe } from './Pipes/category.pipe';
+import { ArmiesComponent } from './armies/armies.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { CategoryPipe } from './Pipes/category.pipe';
     AuthOnlyDirective,
     FilterPipe,
     CategoryPipe,
+    ArmiesComponent,
   ],
   imports: [
     BrowserModule,

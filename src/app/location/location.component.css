@@ -25,9 +25,10 @@
   border: 1px solid rgba(87, 197, 182, 1);
 }
 .matImg {
-  height: 120px;
-  width: 100px;
-  margin-left: 30%;
+  max-height: 100px;
+  max-width: 100px;
+  object-fit: cover;
+  margin-left: 40%;
 }
 .authCon input {
   background-color: #002233;
@@ -60,6 +61,7 @@
   text-align: center;
   margin-bottom: 1rem;
   margin-left: 15%;
+  float: left;
   border: none;
   color: #002233;
   font-size: small;
@@ -110,7 +112,8 @@ h4 {
   border: none;
   width: 22%;
   height: 30px;
-  margin-left: 10%;
+  margin-top: 31%;
+  margin-right: 10%;
   align-items: center;
   background: rgba(201, 255, 248, 0.35);
   border-radius: 6px;
@@ -118,4 +121,5 @@ h4 {
   backdrop-filter: blur(16.7px);
   -webkit-backdrop-filter: blur(16.7px);
   text-align: center;
+  float: right;
 }

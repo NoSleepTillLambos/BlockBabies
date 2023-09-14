@@ -3,6 +3,7 @@ export interface Materials {
     image: string,
     name: string,
     category: string,
+    location: string,
     quantity: string,
 }
 // all our interfaces
