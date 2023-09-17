@@ -5,6 +5,7 @@
   top: 2%;
   left: 15%;
   border-radius: 20px;
+  height: 80%;
 }
 .allInventory {
   margin-top: 3%;
@@ -28,7 +29,7 @@
   max-height: 100px;
   max-width: 100px;
   object-fit: cover;
-  margin-left: 40%;
+  margin-left: 30%;
 }
 .authCon input {
   background-color: #002233;
@@ -112,7 +113,7 @@ h4 {
   border: none;
   width: 22%;
   height: 30px;
-  margin-top: 31%;
+  margin-top: 6%;
   margin-right: 10%;
   align-items: center;
   background: rgba(201, 255, 248, 0.35);
@@ -122,4 +123,11 @@ h4 {
   -webkit-backdrop-filter: blur(16.7px);
   text-align: center;
   float: right;
+}
+.inventoryCon {
+  overflow: auto;
+  height: 100%;
+}
+::-webkit-scrollbar {
+  width: 20px;
 }

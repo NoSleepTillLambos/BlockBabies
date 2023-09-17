@@ -5,11 +5,11 @@
       
       <mat-tab-group  mat-stretch-tabs="false" mat-align-tabs="start" backgroundColor="primary">
         <!-- ALL INVENTORY ITEMS-->
-        <mat-tab class="tab" label="All inventory">
+        <mat-tab class="tab" label="All locations">
           <div class="allInventory">
            
               
-              <div class="materialCard" *ngFor="let item of inventory ">
+              <div class="materialCard" *ngFor="let item of inventory">
                 
                 <h2>{{item.name}}</h2>
                 <h3 style="text-align: center;">{{item.category}}</h3>
@@ -23,10 +23,10 @@
         </mat-tab>
   
         <!-- EARTH -->
-        <mat-tab label="Legs">
+        <mat-tab label="Earth">
           <div class="allInventory">
            
-            <div class="materialCard" *ngFor="let item of inventory | category: 'Earth' : 'category'">
+            <div class="materialCard" *ngFor="let item of inventory | category: 'Earth' : 'location'">
               <h2>{{item.name}}</h2>
               <h3 style="text-align: center;">{{item.category}}</h3>
               <img class="matImg" src={{item.image}}>
@@ -36,10 +36,10 @@
         </mat-tab>
   
         <!-- MERCURY-->
-        <mat-tab label="Arms"> 
+        <mat-tab label="Mercury"> 
           <div class="allInventory">
            
-            <div class="materialCard" *ngFor="let item of inventory | category: 'Mercury' : 'category'">
+            <div class="materialCard" *ngFor="let item of inventory | category: 'Mercury' : 'location'">
               <h2>{{item.name}}</h2>
               <h3 style="text-align: center;">{{item.category}}</h3>
               <img class="matImg" src={{item.image}}>
@@ -49,10 +49,10 @@
         </mat-tab>
   
         <!-- VENUS -->
-        <mat-tab label="Body">
+        <mat-tab label="Venus">
           <div class="allInventory">
            
-            <div class="materialCard" *ngFor="let item of inventory | category: 'Venus' : 'category'">
+            <div class="materialCard" *ngFor="let item of inventory | category: 'Venus' : 'location'">
               <h2>{{item.name}}</h2>
               <h3 style="text-align: center;">{{item.category}}</h3>
               <img class="matImg" src={{item.image}}>

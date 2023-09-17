@@ -1,41 +1,47 @@
 <!-- first verify user-->
 <div>
-        <div appAuthOnly [isVerified]="!isVerified" class="authCon">
+    <div appAuthOnly [isVerified]="!isVerified" class="authCon">
 
-                <h2>Please verify yourself before crafting</h2>
+        <h2>Please verify yourself before crafting</h2>
+
+        <div style="text-align: center;">
+            <input [formControl]="username" placeholder="username" type="text">
+            <input [formControl]="password" placeholder="password" type="password">
+            <button (click)="checkVerification()">
+                <h3>Verify me</h3>
+            </button>
+        </div>
+
+
+
+
+    </div>
+    <!-- USERNAME LIAM123 AND PASSWORD IS LIAMDEV12 -->
+    <div appAuthOnly [isVerified]="isVerified" class="authenticatedView">
+        <h5>Welcome, {{username.value}}</h5>
+        <div class="craftCon" *ngFor="let recipe of Recipes">
+            <img [src]="recipe.image" width="30%" height="30%" />
+            <div >
+                <h4>{{recipe.name}}</h4>
+                <p>{{recipe.description}}</p>
+
             
-                    <div style="text-align: center;">
-                        <input [formControl]="username" placeholder="username" type="text">
-                        <input [formControl]="password"  placeholder="password" type="password"> 
-                        <button (click)="checkVerification()"><h3>Verify me</h3></button> 
-                    </div>
-                           
-                    
-                    
+                <ul>
+                <li *ngFor="let ingredient of recipe.ingredients">
+                    <span>{{ingredient.amountNeeded}}</span>
+                    <span>{{ingredient.inventoryId.name}}</span>
+                    <span>{{ingredient.inventoryId.quantity}}</span>
+                </li>
+                </ul>
+                <div class="craft-button">
+                <p>Current Amount: {{recipe.amount}}</p>
+                <button (click)="craftRecipe(recipe._id!)" *ngIf="recipe.craftable" class="update-btn" mat-flat-button
+                    color="accent">Craft</button>
+                </div>
+            </div>
             
         </div>
-            <!--   -->
-                <div appAuthOnly [isVerified]="isVerified" class="authenticatedView">
-                    <h5>Welcome, {{username.value}}</h5>
-                    <div class="craft-item" *ngFor="let recipe of Recipes">
-                        <img src="assets/hammer.png" width="50" height="50"/>
-                        <h2>{{recipe.name}}</h2>
-                        <h5>{{recipe.description}}</h5>
-                        
-                        <h6>Ingredients:</h6>
-                        <ul>
-                            <li *ngFor="let ingredient of recipe.ingredients">
-                                <span>{{ingredient.amountNeeded}}</span>
-                                <span>{{ingredient.inventoryId.title}}</span>
-                                <span>{{ingredient.inventoryId.amount}</span>
-                            </li>
-                        </ul>
-                        <div class="craft-button">
-                            <p>Current Amount: {{recipe.amount}}</p>
-                            <button (click)="craftRecipe(recipe._id!)" *ngIf="recipe.isCraftable" class="update-btn" mat-flat-button color="accent">Craft</button>
-                        </div> 
-                </div>
-                    
-                    
-                </div>    
+
+
+    </div>
 </div>

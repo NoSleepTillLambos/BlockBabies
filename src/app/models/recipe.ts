@@ -4,6 +4,6 @@ export interface Recipe {
     name?: string,
     description?: string,
     amount?: number,
-    ingredients?: any
-    isCraftable?: boolean
+    ingredients?: any,
+    craftable?: boolean
 }
