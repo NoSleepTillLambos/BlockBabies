@@ -20,7 +20,7 @@
   <h3 align="center">Block Babies</h3>
 
   <p align="center">
-    An Angular and Typescript project developed to allow users to create and breed different characters <br>
+    An Angular and Typescript project developed to allow users to create and manage a intuitive inventory system <br>
     
     
    <br />
@@ -60,7 +60,7 @@
 
 ### Project Description
 
-<p align="center" style="fon-weight:bold">Block babies is centred around the world of blockchain with specific focus on axie infinity and its ecosystem, the web app allows users to craft their characters and maintain the craftable items within the inventory </p>
+**Block babies is centred around the world of blockchain with specific focus on axie infinity and its ecosystem, the web app allows users to craft their characters and maintain the craftable items within the inventory**
 
 ### Built With
 
