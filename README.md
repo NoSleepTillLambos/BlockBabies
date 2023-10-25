@@ -60,7 +60,7 @@
 
 ### Project Description
 
-**Block babies is centred around the world of blockchain with specific focus on axie infinity and its ecosystem, the web app allows users to craft their characters and maintain the craftable items within the inventory**
+**Block babies is centred around the world of blockchain with specific focus on <a src="https://axieinfinity.com/">Axie infinity<a/> and its ecosystem, the web app allows users to craft their characters and maintain the craftable items within the inventory**
 
 ### Built With
 
