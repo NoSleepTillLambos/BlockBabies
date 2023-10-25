@@ -60,7 +60,7 @@
 
 ### Project Description
 
-Algo crypt is a crypto currency web application designed to provide users with the ability to analyze various price points and historical data about the top 5 currencies by market cap, namely Bitcoin, Ethereum, BNB, USDT etc
+<p align="center" style="fon-weight:bold">Block babies is centred around the world of blockchain with specific focus on axie infinity and its ecosystem, the web app allows users to craft their characters and maintain the craftable items within the inventory </p>
 
 ### Built With
 
@@ -69,7 +69,6 @@ Algo crypt is a crypto currency web application designed to provide users with t
 ![NPM](	https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![VS-Code](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
-<br/>
 <!-- GETTING STARTED -->
 
 ## Getting Started
