@@ -35,8 +35,6 @@
 
 ## Table of Contents
 
-- The project is centred around the world of Block babies, a fictional world I have developed based on the game <br/>
-  <a href="https://axieinfinity.com/">Axie infinity</a>
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [How to install](#how-to-install)
@@ -66,10 +64,12 @@ Algo crypt is a crypto currency web application designed to provide users with t
 
 ### Built With
 
-- [Angular](https://angular.io/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Angular material](https://material.angular.io/)
+![Angular](	https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![NPM](	https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![VS-Code](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
+<br/>
 <!-- GETTING STARTED -->
 
 ## Getting Started
@@ -141,6 +141,8 @@ Its a game i have quite a lot of experience using and a lot of time within the a
 
 ## Development Process
 
+A large part of my inspiration came from axie infinity and its marketplace where users could breed, buy and sell their axies
+<a href="https://axieinfinity.com/">Axie infinity</a>
 I had to decide what my project was going to be based on and what the general theme would be. <br/> from playing Axie a lot
 and with the general idea being the same as what was expected of us in the brief i decided to base it off this.
 
