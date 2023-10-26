@@ -107,7 +107,7 @@ Here are a couple of ways to clone this repo:
 <!-- FEATURES AND FUNCTIONALITY-->
 <!-- You can add the links to all of your imagery at the bottom of the file as references -->
 
-## Features and Functionality
+## Previous features/functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 
@@ -210,6 +210,8 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 <!-- all resources that you used and Acknowledgements here -->
 
-- [Angular](https://angular.io/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Angular material](https://material.angular.io/)
+![Angular](	https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![NPM](	https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![VS-Code](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+
