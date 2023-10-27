@@ -111,7 +111,7 @@ Here are a couple of ways to clone this repo:
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 
-![image2](src/assets/mockup1.png)
+![image2](src/assets/prevFeatures.png)
 
 ### Feature 2
 
