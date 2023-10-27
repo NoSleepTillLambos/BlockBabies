@@ -1,10 +1,10 @@
 <!-- Repository Information & Links-->
 <br />
 
-![GitHub repo size](https://img.shields.io/github/repo-size/MikeMaynard14/termoneexample)
-![GitHub watchers](https://img.shields.io/github/watchers/MikeMaynard14/termoneexample)
-![GitHub language count](https://img.shields.io/github/languages/count/MikeMaynard14/termoneexample)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/MikeMaynard14/termoneexample)
+![GitHub repo size](https://img.shields.io/github/repo-size/NoSleepTillLambos/BlockBabies)
+![GitHub watchers](https://img.shields.io/github/watchers/NoSleepTillLambos/BlockBabies)
+![GitHub language count](https://img.shields.io/github/languages/count/NoSleepTillLambos/BlockBabies)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/NoSleepTillLambos/BlockBabies)
 
 <!-- HEADER SECTION -->
 <h5 align="center" style="padding:0;margin:0;">Liam Wedge</h5>
@@ -20,10 +20,8 @@
   <h3 align="center">Block Babies</h3>
 
   <p align="center">
-    An Angular and Typescript project developed to allow users to create and breed different characters <br>
+   An Angular and Typescript project developed to allow users to create and manage a intuitive inventory system
     
-    
-   <br />
    <br />
    <a href="https://drive.google.com/drive/folders/1bHFGq7nIGPdDqJGrCNNCiSqTUyPk-h7F">View Demo</a>
     ·
@@ -35,8 +33,6 @@
 
 ## Table of Contents
 
-- The project is centred around the world of Block babies, a fictional world I have developed based on the game <br/>
-  <a href="https://axieinfinity.com/">Axie infinity</a>
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [How to install](#how-to-install)
@@ -62,13 +58,14 @@
 
 ### Project Description
 
-Algo crypt is a crypto currency web application designed to provide users with the ability to analyze various price points and historical data about the top 5 currencies by market cap, namely Bitcoin, Ethereum, BNB, USDT etc
+**Block babies is centred around the world of blockchain with specific focus on <a src="https://axieinfinity.com/">Axie infinity<a/> and its ecosystem, the web app allows users to craft their characters and maintain the craftable items within the inventory**
 
 ### Built With
 
-- [Angular](https://angular.io/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Angular material](https://material.angular.io/)
+![Angular](	https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![NPM](	https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![VS-Code](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
 <!-- GETTING STARTED -->
 
@@ -110,7 +107,7 @@ Here are a couple of ways to clone this repo:
 <!-- FEATURES AND FUNCTIONALITY-->
 <!-- You can add the links to all of your imagery at the bottom of the file as references -->
 
-## Features and Functionality
+## Previous features/functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 
@@ -141,6 +138,8 @@ Its a game i have quite a lot of experience using and a lot of time within the a
 
 ## Development Process
 
+A large part of my inspiration came from axie infinity and its marketplace where users could breed, buy and sell their axies
+<a href="https://axieinfinity.com/">Axie infinity</a>
 I had to decide what my project was going to be based on and what the general theme would be. <br/> from playing Axie a lot
 and with the general idea being the same as what was expected of us in the brief i decided to base it off this.
 
@@ -211,6 +210,9 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 <!-- all resources that you used and Acknowledgements here -->
 
-- [Angular](https://angular.io/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Angular material](https://material.angular.io/)
+![Angular](	https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![NPM](	https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![NodeJs](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![VS-Code](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+
