@@ -125,8 +125,8 @@ Login functionality that prevents a user from logging into without the correct c
 
 <!-- Briefly explain your concept ideation process -->
 
-My main source of inspiration was drawn from Axie infinity, so a lot of my inspiration was designed around them and their website and agenda
-Its a game i have quite a lot of experience using and a lot of time within the app so it helped a lot with my designs.
+**My main source of inspiration was drawn from Axie infinity, so a lot of my inspiration was designed around them and their website and agenda
+Its a game i have quite a lot of experience using and a lot of time within the app so it helped a lot with my designs**
 
 ### Road Map and conceptual process 📌
 
