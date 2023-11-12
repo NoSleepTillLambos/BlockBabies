@@ -23,9 +23,7 @@
    An Angular and Typescript project developed to allow users to create and manage a intuitive inventory system
     
    <br />
-   <a href="https://drive.google.com/drive/folders/1bHFGq7nIGPdDqJGrCNNCiSqTUyPk-h7F">View Demo</a>
-    ·
-    <a href="https://github.com/NoSleepTillLambos/BlockBabies">Report Bug</a>
+   <br />
     ·
     
 </p>
