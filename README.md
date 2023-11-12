@@ -19,7 +19,7 @@
   
   <h3 align="center">Block Babies</h3>
 
-  <p align="center">
+  <p align="center" font-weight="bold">
    An Angular and Typescript project developed to allow users to create and manage a intuitive inventory system
     
    <br />
