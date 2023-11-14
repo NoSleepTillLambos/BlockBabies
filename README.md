@@ -19,13 +19,11 @@
   
   <h3 align="center">Block Babies</h3>
 
-  <p align="center">
+  <p align="center" font-weight="bold">
    An Angular and Typescript project developed to allow users to create and manage a intuitive inventory system
     
    <br />
-   <a href="https://drive.google.com/drive/folders/1bHFGq7nIGPdDqJGrCNNCiSqTUyPk-h7F">View Demo</a>
-    ·
-    <a href="https://github.com/NoSleepTillLambos/BlockBabies">Report Bug</a>
+   <br />
     ·
     
 </p>
@@ -109,57 +107,56 @@ Here are a couple of ways to clone this repo:
 
 ## Previous features/functionality
 
-<!-- note how you can use your gitHub link. Just make a path to your assets folder -->
+### Feature 1  🎉 
 
 ![image2](src/assets/prevFeatures.png)
 
-### Feature 2
+### Feature 2  🎉 
 
 Login functionality that prevents a user from logging into without the correct credentials and accessing the database and data within
 
-### Feature 3
+### Feature 3 🎉 
 
-<!-- CONCEPT PROCESS -->
-<!-- Briefly explain your concept ideation process -->
-<!-- here you will add things like wireframing, data structure planning, anything that shows your process. You need to include images-->
+
 
 ## Concept Process
 
-My main source of inspiration was drawn from Axie infinity, so a lot of my inspiration was designed around them and their website and agenda
-Its a game i have quite a lot of experience using and a lot of time within the app so it helped a lot with my designs.
+<!-- Briefly explain your concept ideation process -->
 
-### Road Map and conceptual process
+**My main source of inspiration was drawn from Axie infinity, so a lot of my inspiration was designed around them and their website and agenda
+Its a game i have quite a lot of experience using and a lot of time within the app so it helped a lot with my designs**
 
-![image4](src/assets/HomePage.png)
-![image5](src/assets/CraftingPage.png)
-![image6](src/assets/LocationPage.png)
+### Road Map and conceptual process 📌
+
+**Planning the crafting section and the inner workins regarding route protection and authentication to ensure the inventories are protected**
+![image4](src/assets/planning/wireframes.png)
+
 
 <!-- DEVELOPMENT PROCESS -->
 
-## Development Process
+## Development Process 🔨
 
 A large part of my inspiration came from axie infinity and its marketplace where users could breed, buy and sell their axies
 <a href="https://axieinfinity.com/">Axie infinity</a>
 I had to decide what my project was going to be based on and what the general theme would be. <br/> from playing Axie a lot
 and with the general idea being the same as what was expected of us in the brief i decided to base it off this.
 
-### Implementation Process
+### Implementation Process ✒️ 
 
 <!-- stipulate all of the functionality you included in the project -->
 <!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
+- **Research/ design and inspiration work, what did i want to create, what did i find cool and inspiring**
+- **I wanted it to be based off something real world orientated**
+- **Wireframing**
+- **Working with a whole new framework was tough so learning the ins and outs before development was essential it definentely took longer than expected**
 
-- I began by creating wire-frames and walkthrough prototypes so I could better understand the user-flow
-- Working with a whole new framework was tough so learning the ins and outs before development was essential.
-
-#### Above And Beyond
-
-Going above and beyond the brief
+#### Above And Beyond the brief 🌞
 
 <!-- what did you learn outside of the classroom and implement into your project-->
 
-- Search functionality
+- **Search functionality for the location and inventory screens**
 
-### Future Implementation
+### Future Implementation ⌛
 
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
@@ -169,7 +166,7 @@ Going above and beyond the brief
 
 ## Final Outcome
 
-### Mockups
+### Mockups  💎 
 
 ![image2](src/assets/mockup2.png)
 <br>
@@ -177,8 +174,8 @@ Going above and beyond the brief
 
 <!-- VIDEO DEMONSTRATION -->
 
-### Video Demonstration
-
+### Video Demonstration 📹
+ 
 To see a run through of the application, please click below:
 
 [View Demonstration](https://drive.google.com/drive/folders/1IiMC4ZpDRhs8Q5RuAk9rlZmzaHfeihNa)
@@ -187,7 +184,7 @@ See the [open issues](https://github.com/NoSleepTillLambos/BlockBabies) for a li
 
 <!-- AUTHORS -->
 
-## Authors
+## Authors 📓
 
 [LiamWedge](https://github.com/NoSleepTillLambos)
 
@@ -199,7 +196,7 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 <!-- LICENSE -->
 
-## Contact
+## Contact 📞
 
 - **Liam Wedge** - [liamwedge00@gmail.com]()
 - **Project Link** - https://github.com/NoSleepTillLambos/BlockBabies
@@ -210,9 +207,7 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 <!-- all resources that you used and Acknowledgements here -->
 
-![Angular](	https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![NPM](	https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-![NodeJs](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![VS-Code](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+***UI***
+[Freepik](https://www.freepik.com/) An awesome place for really high quality designs & mockups
+
 
