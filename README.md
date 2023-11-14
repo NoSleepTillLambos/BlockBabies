@@ -52,7 +52,7 @@
 
 <!-- header image of project -->
 
-![image1](src/Assets/chartPage.png)
+![image1](src/assets/mockups/m1.png)
 
 ### Project Description
 
@@ -168,9 +168,9 @@ and with the general idea being the same as what was expected of us in the brief
 
 ### Mockups  💎 
 
-![image2](src/assets/mockup2.png)
+![image2](src/assets/mockups/m2.png)
 <br>
-![image3](src/assets/mokcup3.png)
+![image3](src/assets/mockups/m3.png)
 
 <!-- VIDEO DEMONSTRATION -->
 
