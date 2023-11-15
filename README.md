@@ -52,7 +52,7 @@
 
 <!-- header image of project -->
 
-![image1](src/Assets/chartPage.png)
+![image1](src/assets/mockups/m1.png)
 
 ### Project Description
 
@@ -107,28 +107,44 @@ Here are a couple of ways to clone this repo:
 
 ## Previous features/functionality
 
+![image2](src/assets/prevFeatures.png)
+
 ### Feature 1  🎉 
 
-![image2](src/assets/prevFeatures.png)
+![image4](src/assets/mockups/2.png)
+
+</br>
+
+**Route protection before crafting new items from the inventory**
 
 ### Feature 2  🎉 
 
-Login functionality that prevents a user from logging into without the correct credentials and accessing the database and data within
+![image4](src/assets/mockups/3.png)
+
+</br>
+
+**Inventory management | cycling through and searching for specific data if need be**
 
 ### Feature 3 🎉 
 
+![image5](src/assets/mockups/5.png)
 
+</br>
+
+**Crafting elements using the available quantities on hand**
 
 ## Concept Process
 
 <!-- Briefly explain your concept ideation process -->
 
-**My main source of inspiration was drawn from Axie infinity, so a lot of my inspiration was designed around them and their website and agenda
-Its a game i have quite a lot of experience using and a lot of time within the app so it helped a lot with my designs**
+**My main source of inspiration was drawn from Axie infinity, so a lot of my inspiration was designed around them and their website and agenda** 
+
+**I have quite a lot of experience using and a lot of time within the app so it helped a lot with my designs and the way in which i wanted people to naviagte through the app**
 
 ### Road Map and conceptual process 📌
 
 **Planning the crafting section and the inner workins regarding route protection and authentication to ensure the inventories are protected**
+</br>
 ![image4](src/assets/planning/wireframes.png)
 
 
@@ -136,10 +152,10 @@ Its a game i have quite a lot of experience using and a lot of time within the a
 
 ## Development Process 🔨
 
-A large part of my inspiration came from axie infinity and its marketplace where users could breed, buy and sell their axies
+**A large part of my inspiration came from axie infinity and its marketplace where users could breed, buy and sell their axies**
 <a href="https://axieinfinity.com/">Axie infinity</a>
-I had to decide what my project was going to be based on and what the general theme would be. <br/> from playing Axie a lot
-and with the general idea being the same as what was expected of us in the brief i decided to base it off this.
+**I had to decide what my project was going to be based on and what the general theme would be. <br/> from playing Axie a lot
+and with the general idea being the same as what was expected of us in the brief i decided to base it off this**
 
 ### Implementation Process ✒️ 
 
@@ -147,30 +163,31 @@ and with the general idea being the same as what was expected of us in the brief
 <!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
 - **Research/ design and inspiration work, what did i want to create, what did i find cool and inspiring**
 - **I wanted it to be based off something real world orientated**
-- **Wireframing**
+- **Wireframing and exploration of possible UI's**
 - **Working with a whole new framework was tough so learning the ins and outs before development was essential it definentely took longer than expected**
+- **I went back and reimplemented a lot of the UI elements and functionality** 
 
 #### Above And Beyond the brief 🌞
 
 <!-- what did you learn outside of the classroom and implement into your project-->
 
-- **Search functionality for the location and inventory screens**
+- **Search | toggle functionality for the location and inventory screens where users could find the exact element they wanted**
 
 ### Future Implementation ⌛
 
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
-- In the future i would love to incorporate real world blockchain technology and maintain users funds.
+- **In the future i would love to incorporate real world blockchain technology and maintain users funds**
 
 <!-- MOCKUPS -->
 
-## Final Outcome
+## Final Outcome 💎 
 
-### Mockups  💎 
+### Mockups  
 
-![image2](src/assets/mockup2.png)
+![image2](src/assets/mockups/m2.png)
 <br>
-![image3](src/assets/mokcup3.png)
+![image3](src/assets/mockups/m3.png)
 
 <!-- VIDEO DEMONSTRATION -->
 
@@ -209,5 +226,8 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 ***UI***
 [Freepik](https://www.freepik.com/) An awesome place for really high quality designs & mockups
+
+***Tech***
+[Postman](https://www.postman.com/) All data and API queries 
 
 
