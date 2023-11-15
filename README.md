@@ -127,7 +127,7 @@ Here are a couple of ways to clone this repo:
 
 ### Feature 3 🎉 
 
-![image5](src/assets/mockups/5.png)
+![image5](src/assets/mockups/4.png)
 
 </br>
 
@@ -191,7 +191,8 @@ and with the general idea being the same as what was expected of us in the brief
 ![image2](src/assets/mockups/m2.png)
 <br>
 ![image3](src/assets/mockups/m3.png)
-
+<br>
+![image3](src/assets/mockups/m4.png)
 <!-- VIDEO DEMONSTRATION -->
 
 ### Video Demonstration 📹
