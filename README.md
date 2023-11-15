@@ -210,4 +210,7 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 ***UI***
 [Freepik](https://www.freepik.com/) An awesome place for really high quality designs & mockups
 
+***Tech***
+[Postman](https://www.postman.com/) All data and API queries 
+
 
