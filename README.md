@@ -147,6 +147,9 @@ Here are a couple of ways to clone this repo:
 </br>
 ![image4](src/assets/planning/wireframes.png)
 
+**User flows | ensuring the user is aware of the application and its capabilities whilst protecting data from unauthenticated users**
+</br>
+![image4](src/assets/planning/userflow.png)
 
 <!-- DEVELOPMENT PROCESS -->
 
