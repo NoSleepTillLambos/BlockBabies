@@ -1,14 +1,11 @@
 .authenticatedView {
   width: 85%;
-  position: absolute;
-  z-index: 99;
-  margin: auto;
+  display: flex;
+  margin-left: 15%;
   max-height: 100vh;
-  margin-top: 2%;
-  left: 20;
-  right: 0;
 }
-.authCon input {
+
+input {
   background-color: #002233;
   outline: none;
   text-align: center;
@@ -36,10 +33,10 @@ button:hover {
   opacity: 0.8;
 }
 .authCon {
-  position: absolute;
   width: 60%;
-  top: 25%;
+  position: absolute;
   height: 50vh;
+  margin-top: 10%;
   margin-left: 25%;
   border-radius: 16px;
   background: rgba(201, 255, 248, 0.35);
@@ -49,44 +46,61 @@ button:hover {
   -webkit-backdrop-filter: blur(16.7px);
 }
 h2 {
-  color: white;
-  font-family: "Quicksand", sans-serif;
   font-size: x-large;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 3%;
+  color: white;
 }
 .authCon h3 {
   color: #002233;
   margin-top: 5%;
   font-size: medium;
 }
-h4 {
+h4 h3 h1 h5 h2 {
   color: white;
-  font-family: "Quicksand", sans-serif;
+}
+h4 {
+  text-align: center;
 }
 h1 {
-  color: white;
   margin-top: 4%;
-  font-family: "Quicksand", sans-serif;
 }
 h5 {
+  font-size: x-large;
+  margin-top: 3%;
+  position: absolute;
   color: white;
-  font-size: large;
-  margin-top: 2%;
 }
 
 .craftCon {
-  width: 30%;
-  height: 40vh;
+  width: 25%;
+  height: 45vh;
   background: rgba(87, 197, 182, 0.53);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.4px);
   -webkit-backdrop-filter: blur(4.4px);
   border: 1px solid rgba(87, 197, 182, 1);
-  display: inline-block;
+  margin-top: 8%;
+  margin-right: 2%;
 }
 .authenticatedView button {
   float: right;
-  margin-bottom: 30%;
+}
+.authenticatedView p {
+  float: left;
+  margin-left: 5%;
+  color: white;
+}
+.craftCon img {
+  height: 20%;
+  width: 20%;
+  margin-left: 40%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.craftCon button {
+  background-color: #57c5b6;
+  color: white;
+  margin-right: 5%;
 }

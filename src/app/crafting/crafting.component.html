@@ -16,11 +16,13 @@
 
 
     </div>
+    
     <!-- USERNAME LIAM123 AND PASSWORD IS LIAMDEV12 -->
-    <div appAuthOnly [isVerified]="isVerified" class="authenticatedView">
-        <h5>Welcome, {{username.value}}</h5>
+    <div appAuthOnly [isVerified]="isVerified"  class="authenticatedView">
+         <h5>Welcome, {{username.value}}</h5>
         <div class="craftCon" *ngFor="let recipe of Recipes">
-            <img [src]="recipe.image" width="30%" height="30%" />
+           
+            <img [src]="recipe.image" />
             <div >
                 <h4>{{recipe.name}}</h4>
                 <p>{{recipe.description}}</p>
@@ -34,9 +36,9 @@
                 </li>
                 </ul>
                 <div class="craft-button">
-                <p>Current Amount: {{recipe.amount}}</p>
+                <p>Crafted: {{recipe.amount}}</p>
                 <button (click)="craftRecipe(recipe._id!)" *ngIf="recipe.craftable" class="update-btn" mat-flat-button
-                    color="accent">Craft</button>
+                    color="#fff">Craft</button>
                 </div>
             </div>
             
